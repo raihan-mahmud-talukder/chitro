@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const Review = require('../models/review')
-const Photo = require('../models/photo')
 
 router.post('/review', async (req, res) => {
     const { photo, user } = req.body

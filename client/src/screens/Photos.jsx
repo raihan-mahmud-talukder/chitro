@@ -53,7 +53,7 @@ const Photo = ({ photo }) => {
 
     const privateRoute = () => {
         if (user) {
-            navigate(`/book/${photo._id}`)
+            navigate(`/review/${photo._id}`)
         } else {
             alert('login first!')
             navigate('/login')
@@ -65,7 +65,7 @@ const Photo = ({ photo }) => {
             <form className="info" onSubmit={privateRoute}>
                 <h3>{photo.name}</h3>
                 <span>Write a Review:</span>
-                <textarea /><br />
+                <textarea placeholder="express your feelings" /><br />
                 <p>{photo.category}</p>
                 <button type="submit">Submit Reveiw</button>
             </form>
