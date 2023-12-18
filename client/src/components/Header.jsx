@@ -42,7 +42,7 @@ export const Header = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/phots" element={<Photos />} />
+                <Route path="/photos" element={<Photos />} />
                 <Route path="/contact" element={<Contact />} />
                 {/* <Route path="/login" element={<Login />} /> */}
                 {/* <Route path="/register" element={<Register />} /> */}

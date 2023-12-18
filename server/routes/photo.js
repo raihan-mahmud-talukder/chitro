@@ -16,7 +16,7 @@ router.get('/getallphotos', async (req, res) => {
 router.post('/getphotobyid', async (req, res) => {
     const { photoid } = req.body
     try {
-        const photo = await Photo.findById(roomid)
+        const photo = await Photo.findById(photoid)
         res.send(photo)
     } catch (error) {
         return res.status(400).json({ message: error })
