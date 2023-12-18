@@ -70,6 +70,59 @@ a.active {
   color: black;
 }
 
+.photo {
+  width: 50rem;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+  width: 35rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+}
+
+.info span {
+  text-align: center;
+}
+
+.info textarea {
+  width: 13rem;
+  height: 12rem;
+}
+
+.info p {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  letter-spacing: 0.25rem;
+}
+
+.info button {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 footer {
   width: 100%;
   background: green;

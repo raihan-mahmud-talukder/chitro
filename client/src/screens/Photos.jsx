@@ -73,15 +73,15 @@ const Photo = ({ photo }) => {
         }
     }
     return (
-        <div className="room">
-            <h3>{photo.name}</h3>
-            <div className="info">
-                <img src={photo.img} alt={photo.name} />
-                <div className="details">
-                    <p>{photo.category}</p>
-                    <button onClick={privateRoute}>Book Suit</button>
-                </div>
-            </div>
+        <div className="photo">
+            <img src={photo.img} alt={photo.name} />
+            <form className="info" onSubmit={privateRoute}>
+                <h3>{photo.name}</h3>
+                <span>Write a Review:</span>
+                <textarea /><br />
+                <p>{photo.category}</p>
+                <button type="submit">Submit Reveiw</button>
+            </form>
         </div>
     )
 }
