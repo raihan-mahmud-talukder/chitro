@@ -2,7 +2,7 @@ import { NavLink, Route, Routes, useNavigate } from "react-router-dom"
 import { Home } from "../screens/Home"
 import { About } from "../screens/About"
 import { Photos } from "../screens/Photos"
-// import { Login } from "../screens/Login"
+import { Login } from "../screens/Login"
 import { Register } from "../screens/Register"
 import { Contact } from "../screens/Contact"
 import { Admin } from "../screens/Admin"
@@ -44,7 +44,7 @@ export const Header = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/photos" element={<Photos />} />
                 <Route path="/contact" element={<Contact />} />
-                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/admin" element={<Admin />} />
