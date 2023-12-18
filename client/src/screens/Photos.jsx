@@ -14,7 +14,6 @@ export const Photos = () => {
                 const data = (await axios.get('/api/photos/getallphotos')).data
                 setPhotos(data)
                 setDuplicate(data)
-                console.log(photos)
             } catch (error) { console.log(error) }
         }
         fetchData()
@@ -23,39 +22,27 @@ export const Photos = () => {
     const filtered = event => {
         setFilter(event)
         if (event !== 'all') {
-            if (event === 'ac') {
-                const temp = duplicate.filter(room => room.ac)
-                setPhotos(temp)
-            } else if (event === 'dining') {
-                const temp = duplicate.filter(room => room.dining)
-                setPhotos(temp)
-            } else if (event === 'washroom') {
-                const temp = duplicate.filter(room => room.washroom)
-                setPhotos(temp)
-            } else {
-                const temp = duplicate.filter(room => room.type === event)
-                setPhotos(temp)
-            }
-        } else { setPhotos(duplicate) }
+            const temp = duplicate.filter(photo => photo.category === event)
+            setPhotos(temp)
+        } else {
+            setPhotos(duplicate)
+        }
     }
 
-    const available = duplicate.filter(room => room.availability)
-
     return (
-        <div className="rooms">
+        <div className="photos">
             <span>Filter:</span>
             <select value={filter} onChange={event => filtered(event.target.value)}>
                 <option value="all">All</option>
-                <option value="economy">Economy</option>
-                <option value="family">Family</option>
-                <option value="premium">Premium</option>
-                <option value="luxury">Luxury</option>
-                <option value="corporate">Corporate</option>
-                <option value="ac">A/C</option>
-                <option value="washroom">Washroom</option>
-                <option value="dining">Dining</option>
+                <option value="nature">Nature</option>
+                <option value="wild life">Wild Life</option>
+                <option value="pet life">Pet Life </option>
+                <option value="ice life">Ice Life</option>
+                <option value="rural life">Rural Life</option>
+                <option value="domestic life">Domestic Life</option>
+                <option value="water life">Water Life</option>
             </select>
-            <h4>{available.length} of {photos.length} rooms are available</h4>
+            <h4>{photos.length} photos are available</h4>
             {photos.map(photo => { return <Photo photo={photo} key={photo._id} /> })}
         </div>
     )
