@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Natural Beauty",
+        "category": "nature",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbbcnewshunter.com%2Fwp-content%2Fuploads%2F2021%2F03%2FBest-10-Natural-Village-Images-in-Bangladesh-7.jpg&f=1&nofb=1&ipt=c43189dd7ded592646fd3a29c8e6c32b98e9ba671cc33f712403ca59b281b6c3&ipo=images"
+    },
+    {
+        "name": "Elephant",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F212086-nature-animals-wildlife-elephants.jpg&f=1&nofb=1&ipt=15ee7bef24712671317da88fbb5c3f88bb6e9bbd3df8320120d601c931d46138&ipo=images"
+    },
+    {
+        "name": "Brown Bear",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.xcitefun.net%2Fusers%2F2011%2F06%2F250350%2Cxcitefun-amazing-wild-life-in-pictures-8.jpg&f=1&nofb=1&ipt=7471933b69c21025a5dfaf5b77fa1a5b9f8822b2ae012d683050ca20187047aa&ipo=images"
+    },
+    {
+        "name": "Royal Bengal Tiger",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsensationaltheme.com%2Fblog-decode-three-four%2Fwp-content%2Fuploads%2Fsites%2F35%2F2019%2F07%2Fanimal-animal-photography-blur-145939-1024x702.jpg&f=1&nofb=1&ipt=f5da3ee594221c4a623aed64e14a0e0094ad7c9ca70140fe09ae1eb22039d319&ipo=images"
+    },
+    {
+        "name": "Rabbit",
+        "category": "petLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F_LDF9z4ZzZHo%2FTQVjFIpiR7I%2FAAAAAAAAAX0%2FbnjFYjx3R44%2Fs1600%2F1440Rabbit_1027.jpg&f=1&nofb=1&ipt=d5ecf87274e7868c3059797632fef862abf4e0df7718db93571e2e0cb02cc805&ipo=images"
+    },
+    {
+        "name": "Seal",
+        "category": "iceLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.hedweb.com%2Fanimimag%2Fsealpup.jpg&f=1&nofb=1&ipt=7d88b7da97f794db51e97ae088134e9a0d05e2663507ec3644c28b2f7d9d7535&ipo=images"
+    },
+    {
+        "name": "Penguin",
+        "category": "iceLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fr.ddmcdn.com%2Fs_f%2Fo_1%2FAPL%2Fuploads%2F2014%2F08%2Fpenguin-emperor-little-debbie-2600w.jpg&f=1&nofb=1&ipt=68f02297788ad3f6059393893dd429db78f92336cef6083b7785a90904d4e193&ipo=images"
+    },
+    {
+        "name": "Polar Bear",
+        "category": "iceLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-9C1cGbwqv7M%2FV2FMSev9IGI%2FAAAAAAACPyA%2FHb4B0P-C1D0GXqXjobNxCBwi-4cpVxOlACLcB%2Fs1600%2F2.jpg&f=1&nofb=1&ipt=77697a9c91a412176c4056bc5e9b4c7c06711822345aefb129566285ab2ee66d&ipo=images"
+    },
+    {
+        "name": "Red Panda",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.daysoftheyear.com%2Fcdn-cgi%2Fimage%2Ffit%3Dcover%252Cf%3Dauto%252Conerror%3Dredirect%252Cwidth%3D1734%252Cheight%3D976%2Fwp-content%2Fuploads%2Finternational-red-panda-day.jpg&f=1&nofb=1&ipt=0195d904603e340bd066c470d3d2ed8726c2ed839a96dabb4a72b361e24d953b&ipo=images"
+    },
+    {
+        "name": "Giant Panda",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftownsquare.media%2Fsite%2F392%2Ffiles%2F2015%2F12%2FPanda-Bear-Getty-Images.jpg%3Fw%3D1200%26h%3D0%26zc%3D1%26s%3D0%26a%3Dt%26q%3D89&f=1&nofb=1&ipt=6b86f8d1868a33eb236aed2de896e6cfa66ef4bdffd83cb1ed8ef93dbe4e3810&ipo=images"
+    },
+    {
+        "name": "Nobanno",
+        "category": "ruralLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.MctGhNYgMhIgsiPLaEEINAHaER%26pid%3DApi&f=1&ipt=302106bdbe56d36704aeb5cb33fe03ce3bfba1f5ec9ffbb875af140be7f7ebd2&ipo=images"
+    },
+    {
+        "name": "Squirrel",
+        "category": "petLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-PlJrwGzzB3I%2FVI0__1V_jcI%2FAAAAAAAAGRY%2Fb5jApl9On6I%2Fs1600%2Feastern_gray_squirrel_48_by_easterngraysquirrel-d5spwen.jpg&f=1&nofb=1&ipt=0e45f4d5cb2da30ea4fdf950f4bbcc83164b1daed6186cbe8662c98853618678&ipo=images"
+    },
+    {
+        "name": "Buffalo",
+        "category": "domesticLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fsimilarbutdifferentanimals.com%2Fwp-content%2Fuploads%2F2017%2F07%2FDSCF0137.jpg%3Fw%3D2364%26ssl%3D1&f=1&nofb=1&ipt=ed742f0d2bd603b833d498575dddf5e1606735a4831f0d1b0de3acb4ed597872&ipo=images"
+    },
+    {
+        "name": "Otter",
+        "category": "waterLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.naturephoto-cz.com%2Ffullsize%2Fothers%2Fotter-8987.jpg&f=1&nofb=1&ipt=4bbf7476b9e7ee57c714139a163a6d573914b2675852692aa16fefcbd5fb4777&ipo=images"
+    },
+    {
+        "name": "Dolphine",
+        "category": "waterLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F169821-dolphin-water-animals-mammals-sea.jpg&f=1&nofb=1&ipt=e6eff685d1025c7d467489fde58ee59fee8ef59fb5ccead1fe2e9979bff59e06&ipo=images"
+    },
+    {
+        "name": "Hippo",
+        "category": "waterLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffacts.net%2Fwp-content%2Fuploads%2F2016%2F10%2Fhippo-3644217_1920.jpg&f=1&nofb=1&ipt=118c2d4dd5ac0248818d7587ba9f236df2bf2268d17ba71ee1ae9d7c36c98d47&ipo=images"
+    },
+    {
+        "name": "Spotted Deer",
+        "category": "wildLife",
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-SVSQQAiZn7E%2FTZ8j-T3y2PI%2FAAAAAAAAAV4%2FQqhdfTY5IIQ%2Fw1200-h630-p-k-no-nu%2F800px-Chital_Stag.jpg&f=1&nofb=1&ipt=2efea7eccd561501e81d41de07a788541eb63cc63773a34805e557261bc8e73d&ipo=images"
+    }
+]
