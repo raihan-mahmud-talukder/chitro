@@ -1,5 +1,13 @@
+import { Footer } from "./components/Footer"
+import { Header } from "./components/Header"
+
 export const App = () => {
   return (
-    <div>App</div>
+    <>
+      <main>
+        <Header />
+        <Footer />
+      </main>
+    </>
   )
 }
