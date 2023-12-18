@@ -3,7 +3,7 @@ import { Home } from "../screens/Home"
 import { About } from "../screens/About"
 import { Photos } from "../screens/Photos"
 // import { Login } from "../screens/Login"
-// import { Register } from "../screens/Register"
+import { Register } from "../screens/Register"
 import { Contact } from "../screens/Contact"
 import { Admin } from "../screens/Admin"
 import { Dashboard } from "../screens/Dashboard"
@@ -45,7 +45,7 @@ export const Header = () => {
                 <Route path="/photos" element={<Photos />} />
                 <Route path="/contact" element={<Contact />} />
                 {/* <Route path="/login" element={<Login />} /> */}
-                {/* <Route path="/register" element={<Register />} /> */}
+                <Route path="/register" element={<Register />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/admin" element={<Admin />} />
                 {/* <Route path="/book/:roomid" element={<Booking />} /> */}
