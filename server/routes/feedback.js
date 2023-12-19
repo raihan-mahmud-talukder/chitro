@@ -1,20 +1,20 @@
 const express = require('express')
 const router = express.Router()
-const Review = require('../models/review')
+const Feedback = require('../models/feedback')
 
-router.post('/reviewphoto', async (req, res) => {
+router.post('/feedbackphoto', async (req, res) => {
     const { photo, user } = req.body
     try {
-        const newReview = new Review(
+        const newFeedback = new Feedback(
             {
                 photo: photo.name,
                 photoId: photo._id,
                 user: user.name,
                 userId: user._id,
-                review: user.review
+                feedback: user.feedback
             })
-        const review = await newReview.save()
-        res.send('Review is submitted')
+        const feedback = await newFeedback.save()
+        res.send('Feedback is submitted')
     } catch (error) { console.log(error) }
 })
 

@@ -14,11 +14,11 @@ app.use(cors())
 
 const photoRoute = require('./routes/photo')
 const usersRoute = require('./routes/user')
-const reviewRoute = require('./routes/review')
+const feedbackRoute = require('./routes/feedback')
 
 app.use('/api/photos', photoRoute)
 app.use('/api/users', usersRoute)
-app.use('/api/reviews', reviewRoute)
+app.use('/api/feedbacks', feedbackRoute)
 
 const port = process.env.PORT || 5000
 

@@ -7,7 +7,7 @@ import { Register } from "../screens/Register"
 import { Contact } from "../screens/Contact"
 import { Admin } from "../screens/Admin"
 import { Dashboard } from "../screens/Dashboard"
-import { Review } from "../screens/Review"
+import { Feedback } from "../screens/Feedback"
 
 export const Header = () => {
     const navigate = useNavigate() // must needed for dynamic navbar
@@ -49,7 +49,7 @@ export const Header = () => {
                 <Route path="/register" element={<Register />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/admin" element={<Admin />} />
-                <Route path="/review/:photoid" element={<Review />} />
+                <Route path="/feedback/:photoid" element={<Feedback />} />
             </Routes>
         </>
     )

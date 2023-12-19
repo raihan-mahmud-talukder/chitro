@@ -48,14 +48,14 @@ export const Photos = () => {
     )
 }
 const Photo = ({ photo }) => {
-    const [review, setReview] = useState()
+    const [feedback, setFeedback] = useState()
     const navigate = useNavigate()
     const user = JSON.parse(localStorage.getItem('currentUser'))
-    if (user) {user.review = review}
+    if (user) {user.feedback = feedback}
 
     const privateRoute = () => {
         if (user) {
-            navigate(`/review/${photo._id}`)
+            navigate(`/feedback/${photo._id}`)
             localStorage.setItem('currentUser', JSON.stringify(user))
         } else {
             alert('login first!')
@@ -67,13 +67,13 @@ const Photo = ({ photo }) => {
             <img src={photo.img} alt={photo.name} />
             <form onSubmit={privateRoute}>
                 <h3>{photo.name}</h3>
-                <span>Write a Review:</span>
+                <span>Write a Feedback:</span>
                 <textarea
                     placeholder="express your feelings"
                     required
                     maxLength={500}
-                    value={review}
-                    onChange={event => setReview(event.target.value)}
+                    value={feedback}
+                    onChange={event => setFeedback(event.target.value)}
                 /><br />
                 <p>{photo.category}</p>
                 <button type="submit">Submit Reveiw</button>

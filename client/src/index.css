@@ -70,6 +70,23 @@ a.active {
   color: black;
 }
 
+.home h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: green;
+  letter-spacing: 1rem;
+  margin: 10rem;
+}
+
+.home p {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+  margin: 10rem;
+}
+
 .photos {
   display: flex;
   flex-direction: column;
@@ -116,6 +133,7 @@ a.active {
   text-align: center;
   text-transform: uppercase;
   color: green;
+  margin-top: 0;
 }
 
 .photo form span {
@@ -124,7 +142,8 @@ a.active {
 
 .photo form textarea {
   width: 13rem;
-  height: 12rem;
+  height: 15rem;
+  border: 1px solid green;
 }
 
 .photo form p {
@@ -147,30 +166,33 @@ a.active {
   cursor: pointer;
 }
 
-.review {
+.feedback {
   width: 60rem;
   margin: 2rem 0;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.review h3 {
+.feedback h3 {
   text-align: center;
   text-transform: uppercase;
   color: green;
   letter-spacing: 0.25rem;
+  margin-bottom: 0;
 }
 
 .info {
   display: flex;
   gap: 1.5rem;
   padding: 2rem;
+  justify-content: space-between;
 }
 
 .info img {
-  width: 30rem;
+  width: 35rem;
 }
 
 .details {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -285,5 +307,4 @@ footer {
   text-align: center;
   font-weight: bold;
   padding: 0.5rem;
-  font-style: italic;
 }

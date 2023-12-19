@@ -2,11 +2,12 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import axios from 'axios'
 
-export const Review = () => {
+export const Feedback = () => {
     const [photo, setPhoto] = useState()
     const { photoid } = useParams()
     const navigate = useNavigate()
     const user = JSON.parse(localStorage.getItem('currentUser'))
+    document.title = 'FEEDBACK'
 
     useEffect(() => {
         const fetchData = async () => {
@@ -20,20 +21,20 @@ export const Review = () => {
     }, [])
 
     const confirmed = async () => {
-        const review = { photo, user }
+        const feedback = { photo, user }
         try {
-            const result = await axios.post('/api/reviews/reviewphoto', review)
-            alert('Review is submitted!')
+            const result = await axios.post('/api/feedbacks/feedbackphoto', feedback)
+            alert('Feedback is submitted!')
             navigate('/photos')
-            delete user.review
+            delete user.feedback
             localStorage.setItem('currentUser', JSON.stringify(user))
         }
         catch (error) { console.log(error) }
     }
 
     return (
-        <div className="review">
-            <h3>Review Details</h3>
+        <div className="feedback">
+            <h3>Feedback Details</h3>
             {photo && (
                 <>
                     <div className="info">
@@ -45,8 +46,8 @@ export const Review = () => {
                             <span><b>Mobile: </b>{user.mobile}</span>
                             <span><b>Admin: </b>{user.admin ? 'YES' : 'NO'}</span>
                             <span>{photo.category}</span>
-                            <span><b>Review: </b></span>
-                            <p>{user.review}</p>
+                            <span><b>Feedback: </b></span>
+                            <p>{user.feedback}</p>
                             <button onClick={confirmed}>Confirm</button>
                         </div>
                     </div>
@@ -55,3 +56,4 @@ export const Review = () => {
         </div>
     )
 }
+// Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta est hic corrupti doloremque, molestiae molestias voluptas reiciendis ut pariatur quia sed assumenda nobis quam laudantium nostrum! Aliquam, a ullam?
