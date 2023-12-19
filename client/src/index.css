@@ -105,35 +105,83 @@ a.active {
   width: 35rem;
 }
 
-.info {
+.photo form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.info h3 {
+.photo form h3 {
   text-align: center;
   text-transform: uppercase;
   color: green;
 }
 
-.info span {
+.photo form span {
   text-align: center;
 }
 
-.info textarea {
+.photo form textarea {
   width: 13rem;
   height: 12rem;
 }
 
-.info p {
+.photo form p {
   text-align: center;
   text-transform: uppercase;
   color: green;
   letter-spacing: 0.25rem;
 }
 
-.info button {
+.photo form button {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem;
+  background: green;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.review {
+  width: 50rem;
+  padding: 1rem;
+  margin: 2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
+  letter-spacing: 0.25rem;
+}
+
+.info {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+} */
+
+.details span:first-child {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+.details button {
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;

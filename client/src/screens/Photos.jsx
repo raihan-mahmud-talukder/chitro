@@ -62,7 +62,7 @@ const Photo = ({ photo }) => {
     return (
         <div className="photo">
             <img src={photo.img} alt={photo.name} />
-            <form className="info" onSubmit={privateRoute}>
+            <form onSubmit={privateRoute}>
                 <h3>{photo.name}</h3>
                 <span>Write a Review:</span>
                 <textarea placeholder="express your feelings" /><br />

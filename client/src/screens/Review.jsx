@@ -31,25 +31,23 @@ export const Review = () => {
 
     return (
         <div className="review">
-            <div className="photo">
-                <h3>Review Details</h3>
-                {photo && (
-                    <>
-                        <div className="info">
-                            <img src={photo.img} alt={photo.name} />
-                            <div className="details">
-                                <span>{photo.name}</span><br />
-                                <span><b>Name: </b>{user.name}</span><br />
-                                <span><b>Email: </b>{user.email}</span><br />
-                                <span><b>Mobile: </b>{user.mobile}</span><br />
-                                <span><b>Admin: </b>{user.admin ? 'YES' : 'NO'}</span><br />
-                                <p>{room.type}</p>
-                                <button onClick={confirmed}>Confirm</button>
-                            </div>
+            <h3>Review Details</h3>
+            {photo && (
+                <>
+                    <div className="info">
+                        <img src={photo.img} alt={photo.name} />
+                        <div className="details">
+                            <span>{photo.name}</span><br />
+                            <span><b>Name: </b>{user.name}</span><br />
+                            <span><b>Email: </b>{user.email}</span><br />
+                            <span><b>Mobile: </b>{user.mobile}</span><br />
+                            <span><b>Admin: </b>{user.admin ? 'YES' : 'NO'}</span><br />
+                            <p>{photo.type}</p>
+                            <button onClick={confirmed}>Confirm</button>
                         </div>
-                    </>
-                )}
-            </div>
+                    </div>
+                </>
+            )}
         </div>
     )
 }
