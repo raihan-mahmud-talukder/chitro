@@ -105,7 +105,8 @@ a.active {
   width: 35rem;
 }
 
-.photo form {
+.photo form,
+.details {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -133,7 +134,8 @@ a.active {
   letter-spacing: 0.25rem;
 }
 
-.photo form button {
+.photo form button,
+.details button {
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
@@ -146,9 +148,8 @@ a.active {
 }
 
 .review {
-  width: 50rem;
-  padding: 1rem;
-  margin: 2rem;
+  width: 60rem;
+  margin: 2rem 0;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -161,17 +162,19 @@ a.active {
 
 .info {
   display: flex;
-  gap: 1rem;
-  padding: 1rem;
-  align-items: center;
-  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem;
 }
 
-/* .details {
+.info img {
+  width: 30rem;
+}
+
+.details {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-} */
+  justify-content: space-between;
+}
 
 .details span:first-child {
   text-transform: uppercase;
@@ -181,16 +184,16 @@ a.active {
   font-weight: bold;
 }
 
-.details button {
-  width: 100%;
+.details span:nth-child(7) {
   text-transform: uppercase;
-  font-weight: bold;
-  padding: 0.5rem;
-  background: green;
-  color: white;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
+  text-align: center;
+  color: green;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+}
+
+.details p {
+  margin-top: 0
 }
 
 .register,

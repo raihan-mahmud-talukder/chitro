@@ -20,11 +20,13 @@ export const Review = () => {
     }, [])
 
     const confirmed = async () => {
-        const review = { review, user }
+        const review = { photo, user }
         try {
             const result = await axios.post('/api/reviews/reviewphoto', review)
             alert('Review is submitted!')
             navigate('/photos')
+            delete user.review
+            localStorage.setItem('currentUser', JSON.stringify(user))
         }
         catch (error) { console.log(error) }
     }
@@ -38,11 +40,13 @@ export const Review = () => {
                         <img src={photo.img} alt={photo.name} />
                         <div className="details">
                             <span>{photo.name}</span><br />
-                            <span><b>Name: </b>{user.name}</span><br />
-                            <span><b>Email: </b>{user.email}</span><br />
-                            <span><b>Mobile: </b>{user.mobile}</span><br />
-                            <span><b>Admin: </b>{user.admin ? 'YES' : 'NO'}</span><br />
-                            <p>{photo.type}</p>
+                            <span><b>Name: </b>{user.name}</span>
+                            <span><b>Email: </b>{user.email}</span>
+                            <span><b>Mobile: </b>{user.mobile}</span>
+                            <span><b>Admin: </b>{user.admin ? 'YES' : 'NO'}</span>
+                            <span>{photo.category}</span>
+                            <span><b>Review: </b></span>
+                            <p>{user.review}</p>
                             <button onClick={confirmed}>Confirm</button>
                         </div>
                     </div>
